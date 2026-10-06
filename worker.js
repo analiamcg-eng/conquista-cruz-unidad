@@ -62,10 +62,8 @@ export default {
       }
     }
 
-    return fetch(new Request(
-      new URL(url.pathname + url.search, ORIGIN),
-      request
-    ));
-  }
-};
+    return env.SITE.fetch(new Request(
+  url,
+  request
+));
 // actualización para activar el build
