@@ -1,0 +1,12 @@
+{
+  "name": "conquista-cruz-unidad",
+  "main": "worker.js",
+  "compatibility_date": "2026-10-06",
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "conquista-cruz-unidad",
+      "database_id": "f41deebf-b0b1-421a-84d8-a01095f83aac"
+    }
+  ]
+}
