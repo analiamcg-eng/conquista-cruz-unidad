@@ -1,3 +1,5 @@
+const ORIGIN = "https://fragrant-flower-64d1.analiamcg.workers.dev";
+
 const TYPES = [
   "rosario",
   "adoracion",
