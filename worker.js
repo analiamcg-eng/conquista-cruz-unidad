@@ -225,6 +225,11 @@ export default {
       });
     }
 
-    return env.SITE.fetch(request);
+    const target = new URL(
+  url.pathname + url.search,
+  ORIGIN
+);
+
+return fetch(new Request(target, request));
   }
 };
