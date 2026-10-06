@@ -8,5 +8,9 @@
       "database_name": "conquista-cruz-unidad",
       "database_id": "f41deebf-b0b1-421a-84d8-a01095f83aac"
     }
-  ]
+  ],
+  "services": [
+    {
+      "binding": "SITE",
+      "service": "fragrant-flower-64d1"
 }
